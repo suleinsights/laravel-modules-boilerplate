@@ -1,10 +1,10 @@
 <?php
 
-namespace Legendary\Modules\Customer\Http\Controllers;
+namespace Legendary\Modules\Website\Http\Controllers;
 
 use Legendary\Modules\BaseController;
 
-class HomeController extends BaseController
+class WebsiteController extends BaseController
 {
     /**
      * Render Views from index blade
@@ -12,7 +12,7 @@ class HomeController extends BaseController
      */
     public function index()
     {
-        return view('customer::index');
+        return view('website::index');
     }
 
 }

@@ -20,7 +20,7 @@ class ManagerServiceProvider extends BaseServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/Http/Routes.php');
 
         // Load views from 'Haqqman/Modules/User/Views'
-        $this->loadViewsFrom(__DIR__ . '/Resources/Views', 'customer');
+        $this->loadViewsFrom(__DIR__ . '/Resources/Views', 'manager');
     }
 
     /**

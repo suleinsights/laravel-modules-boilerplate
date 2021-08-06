@@ -1,8 +1,8 @@
 <?php
 
-Route::group(['namespace' => 'Legendary\Modules\Customer\Http\Controllers'], function () {
+Route::group(['namespace' => 'Legendary\Modules\Website\Http\Controllers'], function () {
 
-    // Haqqman home page
-    Route::get('/', [ 'as' => 'customer.home', 'uses' => 'HomeController@index' ]);
+    // Website Home Page
+    Route::get('/', [ 'as' => 'website.home', 'uses' => 'WebsiteController@index' ]);
 
 });
